@@ -22,21 +22,7 @@ class Clauderoam < Formula
 
   def caveats
     <<~EOS
-      To set up your config repo, run:
-        clauderoam init
-
-      By default this creates ~/clauderoam/. Override with:
-        export CLAUDEROAM_DATA=/path/to/your/config-repo
-
-      Then push to GitHub so other devices can pull it:
-        cd ~/clauderoam
-        gh repo create clauderoam --private --source=. --remote=origin --push
-
-      On another machine:
-        brew install YunyueLi/tap/clauderoam
-        git clone <your-repo> ~/clauderoam
-        clauderoam install
-
+      Run `clauderoam init` to set up your config repo.
       Docs: https://github.com/YunyueLi/clauderoam
     EOS
   end
