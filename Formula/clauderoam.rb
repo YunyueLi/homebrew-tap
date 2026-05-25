@@ -1,8 +1,8 @@
 class Clauderoam < Formula
   desc "Your Claude Code config, anywhere. Across Macs. Across accounts."
-  homepage "https://github.com/YunyueLi/clauderoam"
-  url "https://github.com/YunyueLi/clauderoam/archive/refs/tags/v0.5.2.tar.gz"
-  sha256 "597a48a34df260273faefd8b35c2160c6eee3768d489cfe42b7ae663588f221b"
+  homepage "https://github.com/YunyueLi/ClaudeRoam"
+  url "https://github.com/YunyueLi/ClaudeRoam/archive/refs/tags/v0.5.2.tar.gz"
+  sha256 "d857313546974b78887bff810d9fcb3aa7868a6b32966f452d83f6160ce056a1"
   license "MIT"
   version "0.5.2"
 
@@ -23,7 +23,7 @@ class Clauderoam < Formula
   def caveats
     <<~EOS
       Run `clauderoam init` to set up your config repo.
-      Docs: https://github.com/YunyueLi/clauderoam
+      Docs: https://github.com/YunyueLi/ClaudeRoam
     EOS
   end
 

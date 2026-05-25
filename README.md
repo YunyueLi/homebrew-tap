@@ -12,7 +12,7 @@ brew install YunyueLi/tap/<formula-name>
 
 | Formula | Description |
 |---|---|
-| [`clauderoam`](Formula/clauderoam.rb) | Your Claude Code config, anywhere. Across Macs. Across accounts. — [repo](https://github.com/YunyueLi/clauderoam) |
+| [`clauderoam`](Formula/clauderoam.rb) | Your Claude Code config, anywhere. Across Macs. Across accounts. — [repo](https://github.com/YunyueLi/ClaudeRoam) |
 
 ## Updating formulas
 
