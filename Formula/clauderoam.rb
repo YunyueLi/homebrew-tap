@@ -1,10 +1,10 @@
 class Clauderoam < Formula
   desc "Your Claude Code config, anywhere. Across Macs. Across accounts."
   homepage "https://github.com/YunyueLi/ClaudeRoam"
-  url "https://github.com/YunyueLi/ClaudeRoam/archive/refs/tags/v0.5.2.tar.gz"
-  sha256 "d857313546974b78887bff810d9fcb3aa7868a6b32966f452d83f6160ce056a1"
+  url "https://github.com/YunyueLi/ClaudeRoam/archive/refs/tags/v0.6.0.tar.gz"
+  sha256 "7732461b563926caf965b2df9d6464433cb891fd0aaa35f91930c246ec1f70a1"
   license "MIT"
-  version "0.5.2"
+  version "0.6.0"
 
   depends_on "bash"
   depends_on "rsync"
